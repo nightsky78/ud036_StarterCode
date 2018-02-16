@@ -16,5 +16,9 @@ StarTrekXIII = media.Movie('Star Trek XIII', 'Stranded on a lost planet fighting
                            'https://upload.wikimedia.org/wikipedia/en/b/ba/Star_Trek_Beyond_poster.jpg',
                            'https://www.youtube.com/watch?v=fLVPfbs19kc')
 
+# Create array with the instances as values
 movies = [StarTrekXI, StarTrekXII, StarTrekXIII]
+
+# call fresh_tomato html generator
+# Actually stroryline is not used. If I have time I add it later.;-)
 fresh_tomatoes.open_movies_page(movies)
