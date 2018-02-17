@@ -6,11 +6,11 @@ import fresh_tomatoes
 # It actually better to get this from a database
 StarTrekXI = media.Movie('Star Trek XI', 'Bad guy comes from the future and changes the past',
                        'https://upload.wikimedia.org/wikipedia/en/2/29/Startrekposter.jpg',
-                       'https://www.youtube.com/watch?v=pKFUZ10Wmbw')
+                       'https://www.youtube.com/watch?v=3PM1pvOzn_w')
 
 StarTrekXII = media.Movie('Star Trek XII', 'Strong guys wants to get his family back - and rule the world',
                           'https://upload.wikimedia.org/wikipedia/en/5/50/StarTrekIntoDarkness_FinalUSPoster.jpg',
-                          'https://www.youtube.com/watch?v=GOQMXNwp8wo')
+                          'https://www.youtube.com/watch?v=r5gdbUC9mWU')
 
 StarTrekXIII = media.Movie('Star Trek XIII', 'Stranded on a lost planet fighting the way back out',
                            'https://upload.wikimedia.org/wikipedia/en/b/ba/Star_Trek_Beyond_poster.jpg',
