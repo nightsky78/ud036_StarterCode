@@ -1,14 +1,11 @@
-##########################################
 # Project: Movie Website
 # Date Started: 1/1/2018
 # Date Completed: pending
 # Submitted by: Johannes Hettig
-##########################################
 
-######################################## Media File ####################################################
-# Description: This file instantiates the class Movie to be used in the fresh_tomatoes.py html generator.
-# The main source for the structure of the file was obtained from Udacity FDND Course
-########################################################################################################
+# Description: This file instantiates the class Movie to be used in the
+# fresh_tomatoes.py html generator. The main source for the structure of
+# the file was obtained from Udacity FDND Course
 
 import media
 import fresh_tomatoes
@@ -19,13 +16,14 @@ import fresh_tomatoes
 
 # Instantiating class movie for movie "Star Trek XI"
 StarTrekXI = media.Movie('Star Trek XI',
-                        'Bad guy comes from the future and changes the past',
-                        'https://upload.wikimedia.org/wikipedia/en/2/29/Startrekposter.jpg',
-                        'https://www.youtube.com/watch?v=3PM1pvOzn_w')
+                         'Bad guy comes from the future and changes the past',
+                         'https://upload.wikimedia.org/wikipedia/en/2/29/Startrekposter.jpg',
+                         'https://www.youtube.com/watch?v=3PM1pvOzn_w')
 
 # Instantiating class movie for movie "Star Trek XII"
 StarTrekXII = media.Movie('Star Trek XII',
-                          'Strong guys wants to get his family back - and rule the world',
+                          'Strong guys wants to get his family back - and rule \
+                           the world',
                           'https://upload.wikimedia.org/wikipedia/en/5/50/StarTrekIntoDarkness_FinalUSPoster.jpg',
                           'https://www.youtube.com/watch?v=r5gdbUC9mWU')
 
